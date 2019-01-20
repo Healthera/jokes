@@ -1,0 +1,37 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "extends": ["eslint:recommended"],
+  "env": {
+      "es6": true,
+      "node": true,
+      "mocha": true
+  },
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "curly": [2, "multi"],
+    "max-classes-per-file": [2, 1],
+    "member-ordering": 0,
+    "no-console": 1,
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "no-empty": 2,
+    "no-unused-vars": 2,
+    "object-literal-sort-keys": 0,
+    "ordered-imports": 0,
+    "prefer-for-of": 0,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "max-len": [2, 120],
+    "handle-callback-err": 2,
+    "quotes": [2, "single"],
+    "no-extra-semi": 2,
+    "trailing-comma": 0,
+    "arrow-parens": 0,
+    "semi": 2
+  }
+}

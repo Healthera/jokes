@@ -1,20 +1,22 @@
+'use strict';
+
 const express = require('express');
-const fs = require('fs');
+const dotenv = require('dotenv');
+const bodyParser = require('body-parser');
+
+const models = require('./models');
+const jokesRoutes = require('./routes/jokes');
+const JokesController = require('./controllers/JokesController');
+
 const app = express();
-const parse = require('csv-parse');
 
-fs.readFile('jokes.csv', (err, data) => {
-  parse(data, {}, (err, jokes) => {
-    app.get('/', function (req, res) {
-      let i = Math.floor((Math.random() * jokes.length));
-      let response = {
-        joke: jokes[i][0]
-      }
-      res.json(response);
-    });
-  });
-});
+dotenv.load();
 
-app.listen(3050, function () {
-  console.log('Example app listening on port 3050.');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use('/', jokesRoutes(new JokesController(models.joke, models.sequelize)));
+
+app.listen(Number(process.env.PORT), process.env.URI, function () {
+  console.log(`Example app listening on http://${process.env.URI}:${process.env.PORT}.`);
 });

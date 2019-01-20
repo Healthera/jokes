@@ -1,0 +1,15 @@
+version: "3"
+services:
+  postgres:
+    restart: unless-stopped
+    container_name: jokes_postgres
+    image: postgres:10-alpine
+    ports:
+      - 7777:5432
+    environment:
+    - DEBUG=false
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=
+    - POSTGRES_DB=postgres
+    volumes:
+      - ./db:/var/lib/postgresql
