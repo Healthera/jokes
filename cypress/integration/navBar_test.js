@@ -18,4 +18,20 @@ describe('The NavBar', function() {
       .get('.navbar-brand')
           .should('have', 'href="https://healthera.co.uk/"')
   })
+
+  it('Has healthera name', function() {
+    cy.visit('http://localhost:3000/')
+    cy.get('nav')
+      .get('.navbar-brand')
+          .should('contain', 'Healthera Jokes')
+  })
+
+  it('Redirects to main page from Name', function() {
+    cy.visit('http://localhost:3000/')
+    cy.get('nav')
+      .get('.navbar-brand')
+        .next('.navbar-brand')
+          .click()
+    cy.location('pathname').should('eq', '/')
+  })
 })
