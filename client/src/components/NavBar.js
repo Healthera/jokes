@@ -16,6 +16,9 @@ class NavBar extends Component {
               <li className="navbar-item">
                 <Link to="/jokesList" className="nav-link text-white">Jokes List</Link>
               </li>
+              <li className="navbar-item">
+                <Link to="/create" className="nav-link text-white">Create Joke</Link>
+              </li>
             </ul>
           </div>
       </nav>
