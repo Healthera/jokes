@@ -54,7 +54,7 @@ $ cd client
 ```
 $ yarn install
 ```
-* run the client
+* run the client on second tab
 ```
 yarn start
 ```
@@ -64,7 +64,7 @@ yarn start
 Joke: Why'd the angular dev get ran over by a car?
 Punchline: He couldn't React fast enough"
 ```
-* leave client and run cypress
+* leave client and run cypress on a third tab 
 ```
 $ cd ..
 $ yarn run cypress open
