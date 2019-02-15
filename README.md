@@ -4,7 +4,7 @@
 ## Overview
 
   This is my attempt at a joke tech Test for Healthera. I will try to complete this in 3 hours or less.
-  This app is a work in progress and I did not get to implement all the features I wanted. I completed this in 1h 56m
+  I completed this in 2h 30m
 
   The App is as modular as possible and was created with repurpose in mind.
 
