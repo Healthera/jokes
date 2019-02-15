@@ -10,6 +10,7 @@ class NavBar extends Component {
         <a class="navbar-brand" href="https://healthera.co.uk/" target="_blank" rel="noopener noreferrer">
           <img src={logo} width="30" height="30" alt="Healthera" />
         </a>
+        <Link to="/" className="navbar-brand text-white">Healthera Jokes</Link>
       </nav>
     )
   }
