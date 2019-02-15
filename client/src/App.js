@@ -23,7 +23,7 @@ class App extends Component {
           //add path '/delete/:id'
 
         </div>
-      <Router>
+      </Router>
     );
   }
 }
