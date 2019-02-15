@@ -50,4 +50,20 @@ describe('The NavBar', function() {
           .click()
     cy.location('pathname').should('eq', '/jokesList')
   })
+
+  it('Has link to create joke', function() {
+    cy.visit('http://localhost:3000/')
+    cy.get('nav')
+      .get('.nav-link')
+        .should('contain', 'Create Joke')
+  })
+
+  it('Redirects to Create Joke', function() {
+    cy.visit('http://localhost:3000/')
+    cy.get('nav')
+      .get('.navbar-item')
+        .next('.navbar-item')
+          .click()
+    cy.location('pathname').should('eq', '/create')
+  })
 })
