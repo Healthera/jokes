@@ -11,7 +11,15 @@ class NavBar extends Component {
           <img src={logo} width="30" height="30" alt="Healthera" />
         </a>
         <Link to="/" className="navbar-brand text-white">Healthera Jokes</Link>
+        <div className="collpase navbar-collapse">
+            <ul className="navbar-nav mr-auto">
+              <li className="navbar-item">
+                <Link to="/jokesList" className="nav-link text-white">Jokes List</Link>
+              </li>
+            </ul>
+          </div>
       </nav>
+
     )
   }
 }
