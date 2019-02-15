@@ -34,4 +34,20 @@ describe('The NavBar', function() {
           .click()
     cy.location('pathname').should('eq', '/')
   })
+
+  it('Has link to joke lists', function() {
+    cy.visit('http://localhost:3000/')
+    cy.get('nav')
+      .get('.nav-link')
+        .should('contain', 'Jokes List')
+  })
+
+  it('Redirects to Joke List', function() {
+    cy.visit('http://localhost:3000/')
+    cy.get('nav')
+      .get('.nav-link')
+        .first('.nav-link')
+          .click()
+    cy.location('pathname').should('eq', '/jokesList')
+  })
 })
