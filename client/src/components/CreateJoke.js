@@ -35,7 +35,17 @@ class CreateJoke extends Component {
     console.log(`Joke: ${this.state.joke}`);
     console.log(`Punchline: ${this.state.punch_line}`);
 
-    // add axios here
+    //axios
+    const config = { headers: { 'Content-Type': 'application/x-www-form-urlencoded' } };
+    const qs = require('qs');
+
+    const newJoke = {
+      joke: this.state.joke,
+      punch_line: this.state.punch_line
+    };
+
+    axios.post('http://localhost:8000/jokes', qs.stringify(newJoke), config)
+      .then(res => console.log(res.data));
 
     this.setState({
       joke: '',
