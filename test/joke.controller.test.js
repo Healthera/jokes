@@ -20,4 +20,15 @@ describe('Get all Jokes', () => {
       done();
     });
   });
+  it('Should return an error', (done) => {
+    const MockJoke = sinon.mock(Joke)
+    const expectedResult = { status: false, error: 'Something went wrong' }
+    MockJoke.expects('find').yields(null, expectedResult);
+    Joke.find((err, result) => {
+      MockJoke.verify();
+      MockJoke.restore();
+      expect(result.status).not.to.be.true
+      done();
+    })
+  })
 });
