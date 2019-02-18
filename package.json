@@ -1,16 +1,36 @@
 {
   "name": "jokes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Healthera tech test",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Daniel Stephenson",
   "license": "ISC",
   "dependencies": {
-    "csv-parse": "^1.2.0",
-    "express": "^4.15.2"
+    "csv-parse": "^1.3.3",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djstephenson7/jokes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/djstephenson7/jokes/issues"
+  },
+  "homepage": "https://github.com/djstephenson7/jokes#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.13",
+    "morgan": "^1.9.1"
   }
 }
