@@ -18,6 +18,7 @@ exports.index = (req, res) => {
 
 exports.new = (req, res) => {
   const joke = new Joke();
+  joke.joke = req.body.joke;
   joke.save((err) => {
     if (err) {
       res.json(err);
@@ -42,6 +43,7 @@ exports.view = (req, res) => {
 exports.update = (req, res) => {
   Joke.findById(req.params.joke_id, (err, joke) => {
     if (err) res.send(err);
+    joke.joke = req.body.joke;
     joke.save((err) => {
       if (err) res.json(err);
       res.json({
