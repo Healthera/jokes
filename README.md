@@ -12,7 +12,7 @@ $ cd jokes
 ```
 ### Prerequisites
 
-This app requires MongoDB. To install, follow the instructions[here](https://docs.mongodb.com/manual/installation/).
+This app requires MongoDB. To install, follow the instructions [here](https://docs.mongodb.com/manual/installation/).
 
 Install dependencies:
 ```
@@ -33,7 +33,8 @@ $ npm eslint folder/file.js
 
 I manually checked the server output using Postman, as can be seen here:
 
-Screenshot
+![screenshot 2019-02-18 at 13 06 47](https://user-images.githubusercontent.com/41509062/52954593-81535d00-3382-11e9-8f4c-77849920350e.png)
+
 
 To install Postman, follow the instructions [here](https://www.getpostman.com/downloads/).
 
