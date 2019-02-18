@@ -8,6 +8,9 @@ const bodyParser = require('body-parser');
 
 const apiRoutes = require('./app/routes/api-routes');
 
+mongoose.connect('mongodb://localhost/jokesapi', { useNewUrlParser: true });
+const db = mongoose.connection;
+
 app.use(bodyParser.urlencoded({
   extended: true,
 }));
@@ -15,8 +18,6 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json());
 
 app.use('/api', apiRoutes);
-
-const db = mongoose.connection;
 
 fs.readFile('jokes.csv', (err, data) => {
   parse(data, {}, (err, jokes) => {
