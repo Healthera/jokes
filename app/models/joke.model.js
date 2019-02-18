@@ -7,8 +7,8 @@ const jokeSchema = mongoose.Schema({
   },
 });
 
-const Joke = module.exports = mongoose.model('contact', jokeSchema);
+const Joke = module.exports = mongoose.model('jokes', jokeSchema);
 
-module.exports.get = function (callback, limit) {
+module.exports.get = (callback, limit) => {
   Joke.find(callback).limit(limit);
 };

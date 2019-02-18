@@ -53,7 +53,7 @@ exports.update = (req, res) => {
 };
 
 exports.delete = (req, res) => {
-  Joke.remove({ _id: req.params.joke_id, }, (err, joke) => {
+  Joke.remove({ _id: req.params.joke_id }, (err, joke) => {
     if (err) res.send(err);
     res.json({
       status: 'success',
