@@ -1,6 +1,6 @@
 # Healthera jokes API
 
-Extracts relevant data from ticket website and stores in a CSV file.
+
 
 ## Getting Started
 
