@@ -59,3 +59,29 @@ describe('Post a new Joke', () => {
     });
   });
 });
+
+describe('Delete a joke by id', () => {
+  it('Should delete a joke by id', (done) => {
+    const MockJoke = sinon.mock(Joke);
+    const expectedResult = { status: true };
+    MockJoke.expects('remove').withArgs({ _id: 12345 }).yields(null, expectedResult);
+    Joke.remove({ _id: 12345 }, (err, result) => {
+      MockJoke.verify();
+      MockJoke.restore();
+      expect(result.status).to.be.true;
+      done();
+    });
+  });
+  // Test will pass if the joke is not deleted based on an ID
+  it('Should return error if delete action failed', (done) => {
+    const MockJoke = sinon.mock(Joke);
+    const expectedResult = { status: false };
+    MockJoke.expects('remove').withArgs({ _id: 12345 }).yields(expectedResult, null);
+    Joke.remove({ _id: 12345 }, (err, result) => {
+      MockJoke.verify();
+      MockJoke.restore();
+      expect(err.status).to.not.be.true;
+      done();
+    });
+  });
+});
