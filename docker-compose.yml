@@ -1,0 +1,29 @@
+version: '3'
+services:
+  api:
+    build: ./api
+    depends_on:
+      - db
+      - mongo_seed
+    networks:
+      - backend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+  db:
+    image: mongo
+    ports:
+      - 27017:27017
+    networks:
+      - backend
+  mongo_seed:
+    build: ./db
+    depends_on:
+      - db
+    networks:
+      - backend
+networks:
+  backend:
+    driver: bridge
