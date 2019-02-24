@@ -1,24 +1,36 @@
 import React, {Component} from 'react';
+import axios from 'axios';
 import './Joke.css';
 
 class Joke extends Component {
   constructor(props) {
     super(props);
-    this.handleDelete = this.handleDelete.bind(this);
+    this.deleteJoke = this.deleteJoke.bind(this);
+    this.onKeyUp = this.onKeyUp.bind(this);
   }
 
-  handleDelete() {
-    this.props.handleDelete(this.props.data._id, this.props.corr);
+  onKeyUp(e) {
+    if (e.key === 'Enter' && e.target.value) {
+      axios.post(
+        `http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes/${
+          this.props.data._id
+        }`,
+        {text: e.target.value},
+      );
+    }
+  }
+
+  deleteJoke() {
+    this.props.handleDelete(this.props.data._id);
   }
 
   render() {
     return (
       <div className="joke">
         <span className="action-buttons">
-          <button>save</button>
-          <button onClick={this.handleDelete}>delete</button>
+          <button onClick={this.deleteJoke}>delete</button>
         </span>
-        <span>{this.props.data.text}</span>
+        <input className="joke-text" defaultValue={this.props.data.text} onKeyUp={this.onKeyUp} />
       </div>
     );
   }

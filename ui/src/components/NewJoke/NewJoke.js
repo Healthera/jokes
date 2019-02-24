@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './NewJoke.css';
 
 class NewJoke extends Component {
   constructor() {
@@ -15,14 +16,16 @@ class NewJoke extends Component {
   onKeyUp(e) {
     if (e.key === 'Enter' && this.state.joke) {
       this.props.addJoke(this.state.joke);
+      e.target.value = '';
+      this.setState({joke: ''})
     }
   }
 
   render() {
     return (
-      <div>
-        <div>Add joke!</div>
-        <input placeholder="Type your new joke here!"
+      <div className="new-joke">
+        <div className="new-joke-title">Tell us a joke!</div>
+        <input className="joke-input" placeholder="Type your new joke here and press enter"
           onChange={this.onChange}
           onKeyUp={this.onKeyUp}/>
       </div>

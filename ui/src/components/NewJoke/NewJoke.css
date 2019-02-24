@@ -1,0 +1,13 @@
+.new-joke {
+  padding: 0 10px 10px 20px;
+}
+
+.joke-input {
+  max-width: 400px;
+  font-size: 13px;
+  width: 90%;
+}
+
+.new-joke-title {
+  padding: 5px 0;
+}

@@ -14,43 +14,40 @@ class Jokes extends Component {
     const {data: jokes} = await axios.get(
       `http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes`,
     );
+    jokes.map(j => {
+      j.key = j._id;
+      return j;
+    })
     this.setState({jokes});
   }
 
-  handleSave (event) {
-    //await axios.post(
-    //  `http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes/${id}`,
-    //);
-    console.log(event);
-  }
-
-  async handleDelete(id, index) {
+  async handleDelete(id) {
     await axios.delete(
       `http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes/${id}`,
     );
-    const jokes = [...this.state.jokes];
-    jokes.splice(index, 1);
+    const jokes = this.state.jokes.filter(j => j._id !== id);
     this.setState({jokes});
   }
 
   async addJoke(joke) {
-    await axios.post(
-      `http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes`,{joke}
-    );
+    await axios.post(`http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes`, {
+      joke,
+    });
   }
 
   render() {
     return (
       <div>
-        <NewJoke addJoke={this.addJoke}/>
+        <NewJoke addJoke={this.addJoke} />
         <div>
-          {this.state.jokes.map((j, index) => {
-            return <Joke
-              corr={index}
-              key={index}
-              data={j}
-              handleDelete={this.handleDelete}
-            />;
+          {this.state.jokes.map(j => {
+            return (
+              <Joke
+                data={j}
+                key={j.key}
+                handleDelete={this.handleDelete}
+              />
+            );
           })}
         </div>
       </div>
