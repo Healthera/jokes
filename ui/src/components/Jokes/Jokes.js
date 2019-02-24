@@ -8,6 +8,7 @@ class Jokes extends Component {
     super();
     this.state = {jokes: []};
     this.handleDelete = this.handleDelete.bind(this);
+    this.addJoke = this.addJoke.bind(this);
   }
 
   async componentDidMount() {
@@ -17,7 +18,7 @@ class Jokes extends Component {
     jokes.map(j => {
       j.key = j._id;
       return j;
-    })
+    });
     this.setState({jokes});
   }
 
@@ -30,9 +31,16 @@ class Jokes extends Component {
   }
 
   async addJoke(joke) {
-    await axios.post(`http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes`, {
-      joke,
-    });
+    const {data: newJoke} = await axios.post(
+      `http://${process.env.REACT_APP_EXTERNAL_IP}:3000/jokes`,
+      {
+        joke,
+      },
+    );
+    const jokes = [...this.state.jokes];
+    newJoke.key = newJoke._id;
+    jokes.unshift(newJoke);
+    this.setState({jokes});
   }
 
   render() {
@@ -42,11 +50,7 @@ class Jokes extends Component {
         <div>
           {this.state.jokes.map(j => {
             return (
-              <Joke
-                data={j}
-                key={j.key}
-                handleDelete={this.handleDelete}
-              />
+              <Joke data={j} key={j.key} handleDelete={this.handleDelete} />
             );
           })}
         </div>

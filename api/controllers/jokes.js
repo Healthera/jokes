@@ -14,14 +14,15 @@ module.exports.set = async app => {
   });
 
   app.post('/jokes', async (req, res) => {
+    let result;
     try {
-      await Joke.create({text: req.body.joke});
+      result = await Joke.create({text: req.body.joke});
     } catch (err) {
       // TODO logger
       console.log(err);
       res.status(500).send();
     }
-    res.status(200).send();
+    res.status(200).send(result);
   });
 
   app.post('/jokes/:jokeId', async (req, res) => {
