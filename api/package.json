@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha",
-    "start": "node /app/index.js",
+    "start": "nodemon /app/index.js",
     "eslint": "./node_modules/.bin/eslint --fix ."
   },
   "husky": {
@@ -30,6 +30,7 @@
     "express": "4.16.3",
     "lint-staged": "^7.3.0",
     "mongoose": "^5.4.14",
+    "nodemon": "^1.18.10",
     "request": "^2.88.0"
   },
   "devDependencies": {
