@@ -1,0 +1,46 @@
+{
+  "name": "api-jokes-healthera",
+  "version": "0.0.1",
+  "description": "REST API for Healthera's Jokes challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "start": "nodemon /app/index.js",
+    "eslint": "./node_modules/.bin/eslint --fix ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "./node_modules/.bin/eslint --fix",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "express": "4.16.3",
+    "lint-staged": "^7.3.0",
+    "mongoose": "^5.4.14",
+    "nodemon": "^1.18.10",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "husky": "^1.1.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.14.3"
+  }
+}
