@@ -6,7 +6,7 @@ services:
       - db
       - mongo_seed
     networks:
-      - backend
+      - webapp
     ports:
       - 3000:3000
     volumes:
@@ -17,13 +17,24 @@ services:
     ports:
       - 27017:27017
     networks:
-      - backend
+      - webapp
   mongo_seed:
     build: ./db
     depends_on:
       - db
     networks:
-      - backend
+      - webapp
+  ui:
+    build: ./ui
+    environment:
+      - "REACT_APP_EXTERNAL_IP=${EXTERNAL_IP}"
+    networks:
+      - webapp
+    ports:
+      - 8080:3000
+    volumes:
+      - ./ui:/app
+      - /app/node_modules
 networks:
-  backend:
+  webapp:
     driver: bridge
