@@ -3,7 +3,7 @@
     "username": "admin",
     "password": "admin"
   },
-  "count": 124,
+  "count": 122,
   "jokes": [
     {
       "id": "fdd25a36-22d1-44df-b4f9-795ac66dd65e",
@@ -736,18 +736,6 @@
       "text": "I got another letter from this lawyer today. It said “Final Notice”. Good that he will not bother me anymore.",
       "creationDate": "2019-05-17T21:12:15.079Z",
       "category": ""
-    },
-    {
-      "id": "21c8cc35-cd41-4628-aba9-c49ed3b83b38",
-      "text": "Knock, Knock... Doctor Who?!",
-      "creationDate": "2019-05-21T15:24:06.933Z",
-      "category": "Generic"
-    },
-    {
-      "id": "4c7afd5f-f313-414c-a463-7f175e2007e5",
-      "text": "Knock Knock You Idiot",
-      "creationDate": "2019-05-21T17:56:45.001Z",
-      "category": "unkown"
     }
   ]
 }
