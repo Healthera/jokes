@@ -1,0 +1,753 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin"
+  },
+  "count": 124,
+  "jokes": [
+    {
+      "id": "fdd25a36-22d1-44df-b4f9-795ac66dd65e",
+      "text": "You know that tingly little feeling you get when you like someone? That's your common sense leaving your body.",
+      "creationDate": "2019-05-17T21:12:14.858Z",
+      "category": "unknown"
+    },
+    {
+      "id": "7988ae2d-4cc2-482a-a031-f2adfca8add7",
+      "text": "Feeling pretty proud of myself. The Sesame Street puzzle I bought said 3-5 years, but I finished it in 18 months.",
+      "creationDate": "2019-05-17T21:12:14.860Z",
+      "category": ""
+    },
+    {
+      "id": "6b160c40-f0b8-4e24-8fd9-aef86f7d4373",
+      "text": "Just read that 4,153,237 people got married last year, not to cause any trouble but shouldn't that be an even number?",
+      "creationDate": "2019-05-17T21:12:14.861Z",
+      "category": ""
+    },
+    {
+      "id": "28d727d7-be12-410b-9c6c-2cd57bb11af9",
+      "text": "I used to think I was indecisive, but now I'm not too sure.",
+      "creationDate": "2019-05-17T21:12:14.862Z",
+      "category": ""
+    },
+    {
+      "id": "3ed69dc3-f20b-4e30-976c-bffcbad549d4",
+      "text": "Keep the dream alive: Hit the snooze button.",
+      "creationDate": "2019-05-17T21:12:14.864Z",
+      "category": "unkown"
+    },
+    {
+      "id": "8ea47d6f-4d21-4bf5-ba5f-b85564537691",
+      "text": "What kind of shoes are made from bananas skins? Slippers.",
+      "creationDate": "2019-05-17T21:12:14.865Z",
+      "category": ""
+    },
+    {
+      "id": "8def579f-0ade-4371-ad36-781784ed8708",
+      "text": "What kind of rooms have no walls? Mushrooms.",
+      "creationDate": "2019-05-17T21:12:14.866Z",
+      "category": ""
+    },
+    {
+      "id": "0c7f4cdb-ecae-4ed2-b560-992fd350e690",
+      "text": "If you think nobody cares whether you're alive, try missing a couple of payments.",
+      "creationDate": "2019-05-17T21:12:14.867Z",
+      "category": ""
+    },
+    {
+      "id": "586409f6-afb9-4197-ab94-2b56f18ebd36",
+      "text": "When an employment application asks who is to be notified in case of emergency, I always write, \"A very good doctor\".",
+      "creationDate": "2019-05-17T21:12:14.868Z",
+      "category": ""
+    },
+    {
+      "id": "515ab5e3-205a-4c5c-a016-4c587bd90383",
+      "text": "My favorite mythical creature? The honest politician.",
+      "creationDate": "2019-05-17T21:12:14.869Z",
+      "category": ""
+    },
+    {
+      "id": "a288a1b5-1792-4cc0-b662-5d9cbb5c2753",
+      "text": "My internet is so slow, it's just faster to drive to the Google headquarters and ask them in person.",
+      "creationDate": "2019-05-17T21:12:14.870Z",
+      "category": ""
+    },
+    {
+      "id": "393cc543-ad88-4e4b-9d8c-b807530a64e0",
+      "text": "I am a nobody, nobody is perfect, therefore I am perfect.",
+      "creationDate": "2019-05-17T21:12:14.871Z",
+      "category": ""
+    },
+    {
+      "id": "2080f4c8-4301-41dc-b87d-5ffb01f8f587",
+      "text": "Behind every successful student, there is a deactivated Facebook account.",
+      "creationDate": "2019-05-17T21:12:14.872Z",
+      "category": ""
+    },
+    {
+      "id": "ad406928-678a-4364-8c01-53362ce283f0",
+      "text": "When I call a family meeting I turn off the house wifi and wait for them all to come running.",
+      "creationDate": "2019-05-17T21:12:14.873Z",
+      "category": ""
+    },
+    {
+      "id": "c32f7867-c089-483f-969a-e6ba5f4adff8",
+      "text": "Any room is a panic room if you've lost your phone in it.",
+      "creationDate": "2019-05-17T21:12:14.875Z",
+      "category": ""
+    },
+    {
+      "id": "82cff943-4595-434f-a1fa-ad4b05608d3d",
+      "text": "What do you call the security outside of a Samsung Store? Guardians of the Galaxy.",
+      "creationDate": "2019-05-17T21:12:14.876Z",
+      "category": ""
+    },
+    {
+      "id": "96bd5816-8597-4cc3-adb8-e0115d743fd9",
+      "text": "What was Forrest Gump's email password? \"1forrest1\"",
+      "creationDate": "2019-05-17T21:12:14.877Z",
+      "category": ""
+    },
+    {
+      "id": "42a2784e-a0a9-474f-9e49-d105723cf941",
+      "text": "Escalators don't break down... they just turn into stairs.",
+      "creationDate": "2019-05-17T21:12:14.878Z",
+      "category": ""
+    },
+    {
+      "id": "6d397d31-a2df-493e-958e-7f172ca82a00",
+      "text": "Don't spell part backwards. It's a trap.",
+      "creationDate": "2019-05-17T21:12:14.879Z",
+      "category": ""
+    },
+    {
+      "id": "fe3597db-ad15-4484-928f-99b1c689f580",
+      "text": "Wifi went down during family dinner tonight. One kid started talking and I didn't know who he was.",
+      "creationDate": "2019-05-17T21:12:14.881Z",
+      "category": ""
+    },
+    {
+      "id": "a16d1215-cb8a-4bf7-a85f-1742d8bf0f4d",
+      "text": "I'd tell you a chemistry joke but I know I wouldn't get a reaction.",
+      "creationDate": "2019-05-17T21:12:14.882Z",
+      "category": ""
+    },
+    {
+      "id": "61524d60-a26a-4e0b-99f6-7c8b3f0ab425",
+      "text": "I went to buy some camouflage trousers the other day but I couldn't find any.",
+      "creationDate": "2019-05-17T21:12:14.883Z",
+      "category": ""
+    },
+    {
+      "id": "8277b92b-2001-45b3-a5d3-7368aefe20e8",
+      "text": "The early bird gets the worm but the late worm gets to live.",
+      "creationDate": "2019-05-17T21:12:14.884Z",
+      "category": ""
+    },
+    {
+      "id": "5c317784-3bc4-4f88-b676-d7e8d9ce473e",
+      "text": "You can’t lose a homing pigeon. If your homing pigeon doesn’t come back, then what you’ve lost is a pigeon.",
+      "creationDate": "2019-05-17T21:12:14.885Z",
+      "category": ""
+    },
+    {
+      "id": "1bd28352-e032-471e-9d75-1a23692a1687",
+      "text": "The truth is out there. Anybody got the URL?",
+      "creationDate": "2019-05-17T21:12:14.887Z",
+      "category": ""
+    },
+    {
+      "id": "e86b0b3b-967e-4639-b812-84ceeae9e0bf",
+      "text": "My software never has bugs. It just develops random features.",
+      "creationDate": "2019-05-17T21:12:14.888Z",
+      "category": ""
+    },
+    {
+      "id": "367fdf8e-c005-42a3-b4f5-2d3848849102",
+      "text": "What is Bruce Lee’s favorite drink? Wataaaaah!",
+      "creationDate": "2019-05-17T21:12:14.889Z",
+      "category": ""
+    },
+    {
+      "id": "1cf43977-cb6c-444c-8911-e466e0035115",
+      "text": "How does NASA organize their company parties? They planet.",
+      "creationDate": "2019-05-17T21:12:14.891Z",
+      "category": ""
+    },
+    {
+      "id": "badce4e5-f59f-4830-acf7-37434a946f5b",
+      "text": "Why can’t you hear a pterodactyl go to the bathroom? Because the “P” is silent.",
+      "creationDate": "2019-05-17T21:12:14.892Z",
+      "category": ""
+    },
+    {
+      "id": "5e237797-7a7e-48d8-bb0e-7024cd79f978",
+      "text": "Why can’t a bike stand on its own? It’s two tired.",
+      "creationDate": "2019-05-17T21:12:14.893Z",
+      "category": ""
+    },
+    {
+      "id": "6ae0bdea-a6e8-41de-8301-91fd5d4f256e",
+      "text": "I wrote a song about a tortilla. Well actually, it’s more of a wrap.",
+      "creationDate": "2019-05-17T21:12:14.895Z",
+      "category": ""
+    },
+    {
+      "id": "3da9ec5a-0307-4424-a3ad-e95d58d4122c",
+      "text": "I started a band called 999 Megabytes — we haven’t gotten a gig yet.",
+      "creationDate": "2019-05-17T21:12:14.898Z",
+      "category": ""
+    },
+    {
+      "id": "74f889ba-2d74-47af-a49d-5c6c2ba0f312",
+      "text": "Isn't it great to live in the 21st century? Where deleting history has become more important than making it.",
+      "creationDate": "2019-05-17T21:12:14.899Z",
+      "category": ""
+    },
+    {
+      "id": "de4083a4-e034-4a0e-b78e-b16b6f966ec9",
+      "text": "Apparently I snore so loudly that it scares everyone in the car I'm driving.",
+      "creationDate": "2019-05-17T21:12:14.900Z",
+      "category": ""
+    },
+    {
+      "id": "58133130-af5e-46b9-a6b2-8a4e15a52367",
+      "text": "I'm great at multitasking. I can waste time, be unproductive, and procrastinate all at once.",
+      "creationDate": "2019-05-17T21:12:14.901Z",
+      "category": ""
+    },
+    {
+      "id": "bf23b3e3-055b-458f-8cdc-05c184be2398",
+      "text": "Politicians and diapers have one thing in common. They should both be changed regularly, and for the same reason.",
+      "creationDate": "2019-05-17T21:12:14.903Z",
+      "category": ""
+    },
+    {
+      "id": "33f03c5b-e9bf-4ed5-af2d-98f7e4627462",
+      "text": "I can totally keep secrets. It's the people I tell them to that can't.",
+      "creationDate": "2019-05-17T21:12:14.904Z",
+      "category": ""
+    },
+    {
+      "id": "5200ba28-7070-44fc-a3cc-1c8002e89c66",
+      "text": "A computer once beat me at chess, but it was no match for me at kick boxing.",
+      "creationDate": "2019-05-17T21:12:14.905Z",
+      "category": ""
+    },
+    {
+      "id": "a539751d-4ea5-4ad2-a57d-d35c66362ab2",
+      "text": "Waking up this morning was an eye-opening experience.",
+      "creationDate": "2019-05-17T21:12:14.907Z",
+      "category": ""
+    },
+    {
+      "id": "3c374158-28fd-43df-8c6d-92a6ab88f6ad",
+      "text": "I bought a vacuum cleaner six months ago and so far all it's been doing is gathering dust.",
+      "creationDate": "2019-05-17T21:12:14.908Z",
+      "category": ""
+    },
+    {
+      "id": "6f637c44-e010-48a4-89d1-fe20368a1d58",
+      "text": "That awkward moment when you leave a store without buying anything and all you can think is \"act natural, you're innocent\".",
+      "creationDate": "2019-05-17T21:12:14.909Z",
+      "category": ""
+    },
+    {
+      "id": "8fbb1cb9-3cde-40d6-9c05-64d2f5e3ea75",
+      "text": "What happens to a frog's car when it breaks down? It gets toad away.",
+      "creationDate": "2019-05-17T21:12:14.910Z",
+      "category": ""
+    },
+    {
+      "id": "9fd85ac1-f8b8-4305-abc6-db04fe11e2c5",
+      "text": "Why was six scared of seven? Because seven \"ate\" nine. ",
+      "creationDate": "2019-05-17T21:12:14.911Z",
+      "category": ""
+    },
+    {
+      "id": "57d5be8d-0ce9-43a7-81bf-8c2b1496117d",
+      "text": "I'm reading a book about anti-gravity. It's impossible to put down.",
+      "creationDate": "2019-05-17T21:12:14.912Z",
+      "category": ""
+    },
+    {
+      "id": "9ce09f88-4a0b-4285-be88-eb2b79e5eb01",
+      "text": "I am on a seafood diet. Every time I see food, I eat it.",
+      "creationDate": "2019-05-17T21:12:14.913Z",
+      "category": ""
+    },
+    {
+      "id": "17becb3b-944a-4247-9b17-27f3f0a06947",
+      "text": "Why did the scientist install a knocker on his door? He wanted to win the No-bell prize!",
+      "creationDate": "2019-05-17T21:12:14.914Z",
+      "category": ""
+    },
+    {
+      "id": "a6cb9008-860e-4bd2-baeb-0b2a8c779714",
+      "text": "When I get naked in the bathroom, the shower usually gets turned on.",
+      "creationDate": "2019-05-17T21:12:14.916Z",
+      "category": ""
+    },
+    {
+      "id": "daea2d0c-e068-496f-9535-faa9d7443180",
+      "text": "A book just fell on my head. I've only got myshelf to blame.",
+      "creationDate": "2019-05-17T21:12:14.917Z",
+      "category": ""
+    },
+    {
+      "id": "f34cb9f5-dd56-47e2-8d05-b69e82dc744c",
+      "text": "I wanna make a joke about sodium, but Na..",
+      "creationDate": "2019-05-17T21:12:14.918Z",
+      "category": ""
+    },
+    {
+      "id": "497bdc16-a3f5-4ae8-8997-dbc174d00d42",
+      "text": "Instead of \"the John,\" I call my toilet \"the Jim.\" That way it sounds better when I say I go to the Jim first thing every morning.",
+      "creationDate": "2019-05-17T21:12:14.920Z",
+      "category": ""
+    },
+    {
+      "id": "db5b0fd4-d3ab-45f9-9a19-a15ece826598",
+      "text": "I hate insects puns, they really bug me.",
+      "creationDate": "2019-05-17T21:12:14.921Z",
+      "category": ""
+    },
+    {
+      "id": "ef5ef83f-1d2c-49a1-9d58-81aeb7f8db47",
+      "text": "I'm no photographer, but I can picture us together.",
+      "creationDate": "2019-05-17T21:12:14.923Z",
+      "category": ""
+    },
+    {
+      "id": "9d2fe2a3-7784-40ac-ae4e-41c295dd43c7",
+      "text": "I'm taking part in a stair climbing competition. Guess I better step up my game.",
+      "creationDate": "2019-05-17T21:12:14.927Z",
+      "category": ""
+    },
+    {
+      "id": "3a98dfd7-cf27-4582-b939-eb496a48bafc",
+      "text": "My math teacher called me average. How mean!",
+      "creationDate": "2019-05-17T21:12:14.929Z",
+      "category": ""
+    },
+    {
+      "id": "c160a12a-2f8d-40a2-8af1-491725c18896",
+      "text": "What did one ocean say to the other ocean? Nothing, they just waved.",
+      "creationDate": "2019-05-17T21:12:14.935Z",
+      "category": ""
+    },
+    {
+      "id": "1ce4b6b8-0ba9-4450-b870-2823482a9836",
+      "text": "Why did the bee get married? Because he found his honey.",
+      "creationDate": "2019-05-17T21:12:14.937Z",
+      "category": ""
+    },
+    {
+      "id": "9d8ac2a3-2b57-4aad-a58a-dd50e8abdd10",
+      "text": "Which day do chickens hate the most? Friday.",
+      "creationDate": "2019-05-17T21:12:14.939Z",
+      "category": ""
+    },
+    {
+      "id": "15e57b3c-e500-4e32-90da-1a8f88bed5b1",
+      "text": "How do you count cows? With a cowculator.",
+      "creationDate": "2019-05-17T21:12:14.941Z",
+      "category": ""
+    },
+    {
+      "id": "bcf38e5f-0014-4a1e-9016-69966c7ac53a",
+      "text": "What do you call a bear with no teeth? A gummy bear.",
+      "creationDate": "2019-05-17T21:12:14.947Z",
+      "category": ""
+    },
+    {
+      "id": "f7f1ace6-f199-41fc-a955-a14bf7590b42",
+      "text": "If you ever get cold, just stand in the corner of a room for a while. They're normally around 90 degrees.",
+      "creationDate": "2019-05-17T21:12:14.950Z",
+      "category": ""
+    },
+    {
+      "id": "fd21dd21-4299-4410-933b-18fbd87fae2f",
+      "text": "I went to the bank the other day and asked the banker to check my balance, so she pushed me!",
+      "creationDate": "2019-05-17T21:12:14.953Z",
+      "category": ""
+    },
+    {
+      "id": "974c01f5-01c7-4b2b-94ee-7cf06958a0bf",
+      "text": "What is the tallest building in the entire world? The library, because it has so many stories.",
+      "creationDate": "2019-05-17T21:12:14.956Z",
+      "category": ""
+    },
+    {
+      "id": "da4d667c-42dc-42bc-9668-422fa522b73a",
+      "text": "How do trees access the internet? They log in.",
+      "creationDate": "2019-05-17T21:12:14.958Z",
+      "category": ""
+    },
+    {
+      "id": "c61df042-cfbe-4f0a-9dea-8352cc265d62",
+      "text": "What do you call a famous fish? A star fish.",
+      "creationDate": "2019-05-17T21:12:14.960Z",
+      "category": ""
+    },
+    {
+      "id": "8d39248e-8761-4213-9a56-8cabb6f2c42a",
+      "text": "What is a mummy's favorite type of music? Wrap!",
+      "creationDate": "2019-05-17T21:12:14.962Z",
+      "category": ""
+    },
+    {
+      "id": "778d0337-dca5-418a-bbb8-436a5560b75b",
+      "text": "Why do hamburgers go to the gym A: To get better buns!",
+      "creationDate": "2019-05-17T21:12:14.964Z",
+      "category": ""
+    },
+    {
+      "id": "2fa75076-0e36-44e7-afc2-240299651d32",
+      "text": "How much room is needed for fungi to grow? As mushroom as possible",
+      "creationDate": "2019-05-17T21:12:14.967Z",
+      "category": ""
+    },
+    {
+      "id": "37c100e3-734a-42b9-9039-1dc55da887fe",
+      "text": "Why did Adele cross the road? To sing, \"Hello from the other side!\"",
+      "creationDate": "2019-05-17T21:12:14.969Z",
+      "category": ""
+    },
+    {
+      "id": "e8f82f95-8b6c-44a3-9e77-aac60cd63630",
+      "text": "Can February march? No, but April may.",
+      "creationDate": "2019-05-17T21:12:14.972Z",
+      "category": ""
+    },
+    {
+      "id": "03bb4904-8087-4472-93ea-cc68d3dad5b5",
+      "text": "What is the color of the wind? Blew.",
+      "creationDate": "2019-05-17T21:12:14.974Z",
+      "category": ""
+    },
+    {
+      "id": "b5225c78-1c9c-4a3f-838c-2366e51a850d",
+      "text": "Why are hairdressers never late for work? Because they know all the short cuts!",
+      "creationDate": "2019-05-17T21:12:14.977Z",
+      "category": ""
+    },
+    {
+      "id": "b26b6ca9-35f3-44c5-895f-13c36b7c4466",
+      "text": "What's an astronaut's favorite social media website? MySpace",
+      "creationDate": "2019-05-17T21:12:14.985Z",
+      "category": ""
+    },
+    {
+      "id": "7eb297e4-6ae3-4160-b47b-c3cbafa7df09",
+      "text": "What do you call a sad coffee? Depresso.",
+      "creationDate": "2019-05-17T21:12:14.988Z",
+      "category": ""
+    },
+    {
+      "id": "994abad0-2981-41cf-abff-3031bc547eaf",
+      "text": "How come oysters never donate to charity? Because they are shellfish.",
+      "creationDate": "2019-05-17T21:12:14.990Z",
+      "category": ""
+    },
+    {
+      "id": "1d6b680a-8d45-4299-9bdd-951d87547dd0",
+      "text": "How do you know a clock is still hungry? It goes back four seconds.",
+      "creationDate": "2019-05-17T21:12:14.992Z",
+      "category": ""
+    },
+    {
+      "id": "afdfbbe6-fdd1-4b05-bcd8-9be51059daec",
+      "text": "Why did the tofu cross the road? To prove he wasn't chicken.",
+      "creationDate": "2019-05-17T21:12:14.994Z",
+      "category": ""
+    },
+    {
+      "id": "3369e89a-7752-4484-b60a-b155e9d37a43",
+      "text": "Where do you learn how to make ice cream? Sundae School",
+      "creationDate": "2019-05-17T21:12:14.996Z",
+      "category": ""
+    },
+    {
+      "id": "114b9abb-b591-402e-b0b0-7c3d8035e7e6",
+      "text": "What did the grape say when it was stepped on? Nothing, it just let out a little wine.",
+      "creationDate": "2019-05-17T21:12:14.998Z",
+      "category": ""
+    },
+    {
+      "id": "95e400e4-0c54-4b7d-9510-cf7188df833f",
+      "text": "What do you get from a pampered cow? Spoiled milk.",
+      "creationDate": "2019-05-17T21:12:15.001Z",
+      "category": ""
+    },
+    {
+      "id": "2bb3aca1-dd30-4c20-b972-3d14073935aa",
+      "text": "Want to hear a Potassium joke? K.",
+      "creationDate": "2019-05-17T21:12:15.004Z",
+      "category": ""
+    },
+    {
+      "id": "a963827b-ef68-45c7-87de-83c46c12ab16",
+      "text": "When Magnesium and Oxygen started dating I was like, \"O MG!\"",
+      "creationDate": "2019-05-17T21:12:15.007Z",
+      "category": ""
+    },
+    {
+      "id": "b98165f3-e36f-4e2c-badb-9e679d21acc9",
+      "text": "What computer sings the best? A Dell.",
+      "creationDate": "2019-05-17T21:12:15.009Z",
+      "category": ""
+    },
+    {
+      "id": "0cbb5bd9-fbd1-4c81-bb9b-0d0cd422e780",
+      "text": "What did the spider do on the computer? Made a website!",
+      "creationDate": "2019-05-17T21:12:15.010Z",
+      "category": ""
+    },
+    {
+      "id": "e0763fad-2dd9-4e04-9e22-fb8944994bd9",
+      "text": "where is the best place to hide a body? The second page of a Google search.",
+      "creationDate": "2019-05-17T21:12:15.012Z",
+      "category": ""
+    },
+    {
+      "id": "1f6eaa02-4681-457f-b9ff-24fe6607fba3",
+      "text": "I put my phone on airplane mode, but it sure ain't flyin'.",
+      "creationDate": "2019-05-17T21:12:15.015Z",
+      "category": ""
+    },
+    {
+      "id": "fed901cc-31a4-4792-ad8b-5b0a90a81d24",
+      "text": "Why is it that your nose runs, but your feet smell?",
+      "creationDate": "2019-05-17T21:12:15.018Z",
+      "category": ""
+    },
+    {
+      "id": "b73e1ca5-3654-427f-b6a9-8d5eb0a4393b",
+      "text": "Why shouldn't you write with a broken pencil? Because it’s pointless!",
+      "creationDate": "2019-05-17T21:12:15.020Z",
+      "category": ""
+    },
+    {
+      "id": "80a430be-0fcb-4f87-bbeb-af32803ecc37",
+      "text": "What starts with E, ends with E, and has only 1 letter in it? Envelope.",
+      "creationDate": "2019-05-17T21:12:15.021Z",
+      "category": ""
+    },
+    {
+      "id": "f3ca27e2-704d-4d0c-881f-3342f800058c",
+      "text": "I was wondering why the ball kept getting bigger and bigger, and then it hit me.",
+      "creationDate": "2019-05-17T21:12:15.022Z",
+      "category": ""
+    },
+    {
+      "id": "7cbf1e74-1265-42f8-854c-7bbe7978e880",
+      "text": "Did you hear about the guy whose whole left side was cut off? He's all right now.",
+      "creationDate": "2019-05-17T21:12:15.024Z",
+      "category": ""
+    },
+    {
+      "id": "e52796b5-18bb-4156-9f7d-f2bd47ad57db",
+      "text": "How do you make a tissue dance? Put a little boogie in it.",
+      "creationDate": "2019-05-17T21:12:15.025Z",
+      "category": ""
+    },
+    {
+      "id": "1ed38bf8-aafc-4bd0-8f89-d8fcbcfc2b19",
+      "text": "The energizer bunny was arrested on a charge of battery.",
+      "creationDate": "2019-05-17T21:12:15.026Z",
+      "category": ""
+    },
+    {
+      "id": "b8e8215c-3c84-4c04-84e8-284ea48eb7ab",
+      "text": "What do you call a rabbit that has fleas? Bugs bunny.",
+      "creationDate": "2019-05-17T21:12:15.027Z",
+      "category": ""
+    },
+    {
+      "id": "da9bb974-0bf3-4225-b71f-ccc750585572",
+      "text": "What did the tree say to autumn? Leaf me alone.",
+      "creationDate": "2019-05-17T21:12:15.029Z",
+      "category": ""
+    },
+    {
+      "id": "36a705f8-9cd8-4532-9a92-bfb5219417b9",
+      "text": "What do ghosts serve for dessert? I Scream.",
+      "creationDate": "2019-05-17T21:12:15.030Z",
+      "category": ""
+    },
+    {
+      "id": "e8ebee3f-eddb-4281-bf3a-18e744ff5fe9",
+      "text": "What tea do hockey players drink? Penaltea!",
+      "creationDate": "2019-05-17T21:12:15.032Z",
+      "category": ""
+    },
+    {
+      "id": "2d4ac9a6-6ada-41e5-b551-b81f759e0fd3",
+      "text": "On the other hand, you have different fingers.",
+      "creationDate": "2019-05-17T21:12:15.033Z",
+      "category": ""
+    },
+    {
+      "id": "76a93648-163e-4b86-b3e5-a1c142471647",
+      "text": "An opinion without 3.14159 is just an onion.",
+      "creationDate": "2019-05-17T21:12:15.036Z",
+      "category": ""
+    },
+    {
+      "id": "51f0ac9a-d7ad-4b0c-93fd-39fc7fdd33df",
+      "text": "Where do you find a birthday present for a cat? In a cat-alogue!",
+      "creationDate": "2019-05-17T21:12:15.038Z",
+      "category": ""
+    },
+    {
+      "id": "827eac05-bade-406b-ae93-9da9e1f16013",
+      "text": "I'm sorry I wasn't part of your past, can I make it up by being in your future?",
+      "creationDate": "2019-05-17T21:12:15.039Z",
+      "category": ""
+    },
+    {
+      "id": "b8030198-36d0-44a9-86a1-87376d1c469d",
+      "text": "Now what's on the menu? Me-n-u",
+      "creationDate": "2019-05-17T21:12:15.041Z",
+      "category": ""
+    },
+    {
+      "id": "45143d75-d709-48f8-a31b-adb316679713",
+      "text": "Why are there pain killers in the jungle? The PARROTS-ATE-THEM-ALL.",
+      "creationDate": "2019-05-17T21:12:15.042Z",
+      "category": ""
+    },
+    {
+      "id": "7c306baf-01a4-416b-9511-1af7c66508d1",
+      "text": "Are you made of beryllium, gold, and titanium? You must be because you are BeAuTi-ful.",
+      "creationDate": "2019-05-17T21:12:15.044Z",
+      "category": ""
+    },
+    {
+      "id": "c702f3f8-954a-4cc6-886d-5370cdeed8bc",
+      "text": "Forget hydrogen, you're my number one element.",
+      "creationDate": "2019-05-17T21:12:15.046Z",
+      "category": ""
+    },
+    {
+      "id": "364910f1-6e8a-4f0a-8d69-ed8cc6beaa89",
+      "text": "If at first you don’t succeed, destroy all evidence that you tried.",
+      "creationDate": "2019-05-17T21:12:15.047Z",
+      "category": ""
+    },
+    {
+      "id": "7bbe30e7-e7b8-4e13-96b5-cc654da9aa88",
+      "text": "A healthy sleep not only makes your life longer, but also shortens the workday.",
+      "creationDate": "2019-05-17T21:12:15.049Z",
+      "category": ""
+    },
+    {
+      "id": "b86b5def-41bf-4208-a6f5-a5825b97660a",
+      "text": "What happened to the boy who drank 8 cokes? He burped 7-Up.",
+      "creationDate": "2019-05-17T21:12:15.051Z",
+      "category": ""
+    },
+    {
+      "id": "0012b41e-9097-4c1f-8d7f-5a479cc0f1ff",
+      "text": "Why do golfers wear two pairs of pants? In case they get a hole in one.",
+      "creationDate": "2019-05-17T21:12:15.053Z",
+      "category": ""
+    },
+    {
+      "id": "32f64eef-ed9d-4100-bfdd-192b9e453bb2",
+      "text": "When is a door not a door? When it's ajar.",
+      "creationDate": "2019-05-17T21:12:15.055Z",
+      "category": ""
+    },
+    {
+      "id": "da290d06-3cac-44e8-ba12-72e8e884c4a5",
+      "text": "Have you heard of the new restaurant on the moon? The food is amazing, but I've heard its got no atmosphere...",
+      "creationDate": "2019-05-17T21:12:15.056Z",
+      "category": ""
+    },
+    {
+      "id": "13522f4d-f2f9-45a9-b17e-01b510183f32",
+      "text": "Are you a parking ticket? Because you have fine written all over you",
+      "creationDate": "2019-05-17T21:12:15.058Z",
+      "category": ""
+    },
+    {
+      "id": "0cc18721-162d-4a12-99e2-7f06ba7cc629",
+      "text": "What did the fish say when he swam into a wall? Dam!",
+      "creationDate": "2019-05-17T21:12:15.059Z",
+      "category": ""
+    },
+    {
+      "id": "e5ff5ebc-e04f-4265-88cc-4091d79aeff9",
+      "text": "Show me a piano falling down a mineshaft and I'll show you A-flat minor.",
+      "creationDate": "2019-05-17T21:12:15.061Z",
+      "category": ""
+    },
+    {
+      "id": "15efa8e4-9b79-4368-ac2a-36adf197244f",
+      "text": "How do you wake up Lady Gaga? You poker face!",
+      "creationDate": "2019-05-17T21:12:15.062Z",
+      "category": ""
+    },
+    {
+      "id": "1fa98e7b-14f9-4fcc-bb77-6fe09562906e",
+      "text": "Why did the orange lose the race? Because it ran out of juice.",
+      "creationDate": "2019-05-17T21:12:15.064Z",
+      "category": ""
+    },
+    {
+      "id": "30b3734f-7e69-4fc0-b32a-82ece6429b21",
+      "text": "Dolphins are so smart that within a few weeks of captivity, they can train people to stand on the very edge of the pool and throw them fish?",
+      "creationDate": "2019-05-17T21:12:15.066Z",
+      "category": ""
+    },
+    {
+      "id": "7dd49e80-c15a-428f-9a7e-d858c635b63c",
+      "text": "The shinbone is a device for finding furniture in a dark room.",
+      "creationDate": "2019-05-17T21:12:15.068Z",
+      "category": ""
+    },
+    {
+      "id": "2bdd3d5e-b081-4955-a416-233438875a60",
+      "text": "Always borrow money from a pessimist. They don't expect it back.",
+      "creationDate": "2019-05-17T21:12:15.070Z",
+      "category": ""
+    },
+    {
+      "id": "bd1dd869-0c5a-4632-9383-004e71fbd80b",
+      "text": "I can’t believe I forgot to go to the gym today. That’s 7 years in a row now.",
+      "creationDate": "2019-05-17T21:12:15.072Z",
+      "category": ""
+    },
+    {
+      "id": "4ebfa60b-5ccc-4f6c-8105-e1997421babe",
+      "text": "I thought I’d tell you a good time travel joke – but you didn't like it.",
+      "creationDate": "2019-05-17T21:12:15.074Z",
+      "category": ""
+    },
+    {
+      "id": "9a27d031-6ea2-40da-a36e-0a213289d6ce",
+      "text": "Why did the physics teacher break up with the biology teacher? There was no chemistry.",
+      "creationDate": "2019-05-17T21:12:15.077Z",
+      "category": ""
+    },
+    {
+      "id": "16a62828-b78c-45a0-8620-cf65baeb656e",
+      "text": "I got another letter from this lawyer today. It said “Final Notice”. Good that he will not bother me anymore.",
+      "creationDate": "2019-05-17T21:12:15.079Z",
+      "category": ""
+    },
+    {
+      "id": "21c8cc35-cd41-4628-aba9-c49ed3b83b38",
+      "text": "Knock, Knock... Doctor Who?!",
+      "creationDate": "2019-05-21T15:24:06.933Z",
+      "category": "Generic"
+    },
+    {
+      "id": "4c7afd5f-f313-414c-a463-7f175e2007e5",
+      "text": "Knock Knock You Idiot",
+      "creationDate": "2019-05-21T17:56:45.001Z",
+      "category": "unkown"
+    }
+  ]
+}

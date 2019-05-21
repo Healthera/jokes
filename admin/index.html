@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jokes Administration</title>
+    <link type="text/css" rel="stylesheet" href="css/jsgrid.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/jsgrid-theme.min.css" />
+
+    <style type="text/css">
+        /* input[readonly] {
+            background-color: lightgrey;
+            cursor: wait;
+        } */
+        th.readOnly, td.readOnly {
+            display: none;
+        }
+        #errorMessage {
+            color: red;
+        }
+    </style>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/jsgrid.min.js"></script>
+</head>
+<body>
+    <h1>Jokes Administration</h1>
+    <p>API Documentation may be found here: <a href="/docs" target="_blank">/docs</a></p>
+
+    <div id="loginContainer">
+        <p>Please note that this interface requires an Administrator login.</p>
+        <form name="login">
+            <p><label for="username">Admin Username: </label> <input id="username" name="username" type="text" required /></p>
+            <p><label for="password">Admin Username: </label> <input id="password" name="password" type="password" required /></p>
+            <p><input type="submit" value="Login" /></p>
+            <p id="errorMessage"></p>
+        </form>
+    </div>
+
+    <div id="jsGrid"></div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
