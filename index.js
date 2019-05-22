@@ -30,6 +30,15 @@
  * --------------------------------------------------------------------------------
  * Removing the 'data/jokesDb.json' file will reset the jokes data from the csv.
  * --------------------------------------------------------------------------------
+ * Future considerations
+ * Implement a scalable robust database (storage module)
+ * Use one way encryption for admin password
+ * Consider multiple administrator accounts
+ * Filter admin inputs (text/category) when creating new or updating Jokes
+ * Implement server side pagination
+ * Implement error checking for ajax responses (admin page)
+ * Performance tune and refactoring
+ * --------------------------------------------------------------------------------
  * Tested in Chrome Version 74.0.3729.157 (Official Build) (64-bit)
  **********************************************************************************/
 
