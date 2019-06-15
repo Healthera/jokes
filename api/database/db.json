@@ -1,0 +1,505 @@
+{
+  "jokes": [
+    {
+      "joke": "Team work is important; it helps to put the blame on someone else.",
+      "id": "c69ddbc5-e5b8-44b0-b9ac-abeb33902270"
+    },
+    {
+      "joke": "You know that tingly little feeling you get when you like someone? That's your common sense leaving your body.",
+      "id": "ad8621ac-7a70-45b9-9b7c-2d240d15e1a9"
+    },
+    {
+      "joke": "Feeling pretty proud of myself. The Sesame Street puzzle I bought said 3-5 years, but I finished it in 18 months.",
+      "id": "2ec136aa-1571-4944-bbeb-043b4f8523c7"
+    },
+    {
+      "joke": "Just read that 4,153,237 people got married last year, not to cause any trouble but shouldn't that be an even number?",
+      "id": "ab7275c2-5f6a-4c2f-ae6b-509ebe7c546b"
+    },
+    {
+      "joke": "I used to think I was indecisive, but now I'm not too sure.",
+      "id": "d76dbb16-5673-4fe0-a1f7-b83efaabd3d0"
+    },
+    {
+      "joke": "It is so cold outside I saw a politician with his hands in his own pockets.",
+      "id": "d43047b0-4a63-41b7-9aa2-d12fb6d9fc3d"
+    },
+    {
+      "joke": "Keep the dream alive: Hit the snooze button.",
+      "id": "9fdfc6df-f13f-407f-b77c-cd952a408899"
+    },
+    {
+      "joke": "What kind of shoes are made from bananas skins? Slippers.",
+      "id": "f1871fec-8d3e-452d-908a-5ce498ac39c3"
+    },
+    {
+      "joke": "What kind of rooms have no walls? Mushrooms.",
+      "id": "192eeb3f-bf00-4f1c-a41b-a4a55fc31482"
+    },
+    {
+      "joke": "If you think nobody cares whether you're alive, try missing a couple of payments.",
+      "id": "f5a122af-2236-42f7-9eb1-66591c992e16"
+    },
+    {
+      "joke": "When an employment application asks who is to be notified in case of emergency, I always write, \"A very good doctor\".",
+      "id": "60064ffe-c7be-422a-b175-43a8a1143b30"
+    },
+    {
+      "joke": "My favorite mythical creature? The honest politician.",
+      "id": "bde06e41-553e-4cda-964f-749fb508399a"
+    },
+    {
+      "joke": "My internet is so slow, it's just faster to drive to the Google headquarters and ask them in person.",
+      "id": "31da3507-4624-44f3-b31d-3ac38b664055"
+    },
+    {
+      "joke": "I am a nobody, nobody is perfect, therefore I am perfect.",
+      "id": "e0519c72-170d-481c-a1f5-511366ea4cbe"
+    },
+    {
+      "joke": "Behind every successful student, there is a deactivated Facebook account.",
+      "id": "518dcc1b-6985-4bda-9e3d-85965a8503c2"
+    },
+    {
+      "joke": "When I call a family meeting I turn off the house wifi and wait for them all to come running.",
+      "id": "d1030f58-d2a8-421e-9de3-700273e15f13"
+    },
+    {
+      "joke": "Any room is a panic room if you've lost your phone in it.",
+      "id": "4f55fd97-38a8-49d1-a027-0b8653aad82f"
+    },
+    {
+      "joke": "What do you call the security outside of a Samsung Store? Guardians of the Galaxy.",
+      "id": "6ce06e34-61b7-4a79-8035-5c429c80d264"
+    },
+    {
+      "joke": "What was Forrest Gump's email password? \"1forrest1\"",
+      "id": "453a38b8-9d83-4939-acd6-29286c7342ad"
+    },
+    {
+      "joke": "Escalators don't break down... they just turn into stairs.",
+      "id": "5c06f40f-1215-4493-8b3b-31eb2ced83f3"
+    },
+    {
+      "joke": "Don't spell part backwards. It's a trap.",
+      "id": "c279ed55-eecb-4db9-b6bc-3df56efb03db"
+    },
+    {
+      "joke": "Wifi went down during family dinner tonight. One kid started talking and I didn't know who he was.",
+      "id": "cf232248-8887-417f-bd7b-f9b6e3bacdbe"
+    },
+    {
+      "joke": "I'd tell you a chemistry joke but I know I wouldn't get a reaction.",
+      "id": "60166bf0-889a-469a-a284-9a3ddbe30922"
+    },
+    {
+      "joke": "I went to buy some camouflage trousers the other day but I couldn't find any.",
+      "id": "5e07d0a1-9f8b-4dc9-916a-686b4fe5ecf3"
+    },
+    {
+      "joke": "The early bird gets the worm but the late worm gets to live.",
+      "id": "afc0ee31-578f-4956-b56f-c7b586a41307"
+    },
+    {
+      "joke": "You can’t lose a homing pigeon. If your homing pigeon doesn’t come back, then what you’ve lost is a pigeon.",
+      "id": "b439de6e-7936-4314-a443-e46269fa5e3e"
+    },
+    {
+      "joke": "The truth is out there. Anybody got the URL?",
+      "id": "17b059ce-f0cc-4162-a523-5f75718405fd"
+    },
+    {
+      "joke": "My software never has bugs. It just develops random features.",
+      "id": "15830372-cb95-43f3-b864-59165640c45b"
+    },
+    {
+      "joke": "What is Bruce Lee’s favorite drink? Wataaaaah!",
+      "id": "c56a30bb-9ee2-4bcf-960c-3d973ce09c28"
+    },
+    {
+      "joke": "How does NASA organize their company parties? They planet.",
+      "id": "2b59fdfc-7107-47be-bb63-c586bb500a17"
+    },
+    {
+      "joke": "Why can’t you hear a pterodactyl go to the bathroom? Because the “P” is silent.",
+      "id": "487c1681-cc41-4e37-a75f-9b13eedeea3d"
+    },
+    {
+      "joke": "Why can’t a bike stand on its own? It’s two tired.",
+      "id": "16892227-6047-4e9e-9906-18ee8275d909"
+    },
+    {
+      "joke": "I wrote a song about a tortilla. Well actually, it’s more of a wrap.",
+      "id": "16c3e2c0-e0df-4dab-b2bd-365e29c6665b"
+    },
+    {
+      "joke": "I started a band called 999 Megabytes — we haven’t gotten a gig yet.",
+      "id": "70375d26-e595-4738-b868-9e1db9210436"
+    },
+    {
+      "joke": "Isn't it great to live in the 21st century? Where deleting history has become more important than making it.",
+      "id": "0b5a0eba-bb11-42ee-92a3-630d60e42772"
+    },
+    {
+      "joke": "Apparently I snore so loudly that it scares everyone in the car I'm driving.",
+      "id": "6dd2333e-ee82-407b-9984-5082eb7bd507"
+    },
+    {
+      "joke": "I'm great at multitasking. I can waste time, be unproductive, and procrastinate all at once.",
+      "id": "2ba9e76a-14b0-47b9-981d-e5084416878f"
+    },
+    {
+      "joke": "Politicians and diapers have one thing in common. They should both be changed regularly, and for the same reason.",
+      "id": "3e35c58d-d59e-48bb-8b09-243e13681796"
+    },
+    {
+      "joke": "I can totally keep secrets. It's the people I tell them to that can't.",
+      "id": "b68e295a-92d7-4208-8793-c32265f03825"
+    },
+    {
+      "joke": "A computer once beat me at chess, but it was no match for me at kick boxing.",
+      "id": "4ecb1783-f838-4319-8a44-b25fe9cbde4b"
+    },
+    {
+      "joke": "Waking up this morning was an eye-opening experience.",
+      "id": "92305c0f-8ddb-446f-a13e-17bef79b7e11"
+    },
+    {
+      "joke": "I bought a vacuum cleaner six months ago and so far all it's been doing is gathering dust.",
+      "id": "530c96df-403b-4396-91ab-41491281d324"
+    },
+    {
+      "joke": "That awkward moment when you leave a store without buying anything and all you can think is \"act natural, you're innocent\".",
+      "id": "ac2c17a4-7149-40bf-9496-b6415ad3a7d4"
+    },
+    {
+      "joke": "What happens to a frog's car when it breaks down? It gets toad away.",
+      "id": "ac448632-c98a-49fc-9b7c-333cb7959817"
+    },
+    {
+      "joke": "Why was six scared of seven? Because seven \"ate\" nine. ",
+      "id": "336760eb-641b-49e8-887f-fd37c7f3a98c"
+    },
+    {
+      "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+      "id": "35f8f653-cd6c-4766-964b-d8fa741cf5fb"
+    },
+    {
+      "joke": "I am on a seafood diet. Every time I see food, I eat it.",
+      "id": "dab80a3c-582d-4671-a8bb-e9c5601e9ec2"
+    },
+    {
+      "joke": "Why did the scientist install a knocker on his door? He wanted to win the No-bell prize!",
+      "id": "c2af7609-231b-46c0-b0a3-a83f5209a0e5"
+    },
+    {
+      "joke": "When I get naked in the bathroom, the shower usually gets turned on.",
+      "id": "5c49b408-c9e3-4574-af55-d2a2cd77869a"
+    },
+    {
+      "joke": "A book just fell on my head. I've only got myshelf to blame.",
+      "id": "31267bf1-50f7-44b1-9cd9-888689a6fe73"
+    },
+    {
+      "joke": "I wanna make a joke about sodium, but Na..",
+      "id": "b3054688-a0ad-4e7d-9e8f-9c4fd029416c"
+    },
+    {
+      "joke": "Instead of \"the John,\" I call my toilet \"the Jim.\" That way it sounds better when I say I go to the Jim first thing every morning.",
+      "id": "e3356c70-2b89-4f94-94b2-11d06ef1c399"
+    },
+    {
+      "joke": "I hate insects puns, they really bug me.",
+      "id": "832e1fd9-9232-4895-beff-787532d81251"
+    },
+    {
+      "joke": "I'm no photographer, but I can picture us together.",
+      "id": "1cd29cac-cf77-4910-986a-8701b335f659"
+    },
+    {
+      "joke": "I'm taking part in a stair climbing competition. Guess I better step up my game.",
+      "id": "9fc2c727-9bd0-445c-85e7-0541c7fc8391"
+    },
+    {
+      "joke": "My math teacher called me average. How mean!",
+      "id": "551b30d3-c291-497b-b80a-82c990b6e04a"
+    },
+    {
+      "joke": "What did one ocean say to the other ocean? Nothing, they just waved.",
+      "id": "810c683a-f60c-45f4-adc4-df1e14156491"
+    },
+    {
+      "joke": "Why did the bee get married? Because he found his honey.",
+      "id": "f5794676-728d-4074-8f37-e510d1ce8188"
+    },
+    {
+      "joke": "Which day do chickens hate the most? Friday.",
+      "id": "4c093144-e5e6-484a-af18-bf56640c3aab"
+    },
+    {
+      "joke": "How do you count cows? With a cowculator.",
+      "id": "c7b82510-be89-46fa-9eda-609e092b5ad7"
+    },
+    {
+      "joke": "What do you call a bear with no teeth? A gummy bear.",
+      "id": "219dd763-68e6-472f-a83f-6ac66761c216"
+    },
+    {
+      "joke": "If you ever get cold, just stand in the corner of a room for a while. They're normally around 90 degrees.",
+      "id": "94313531-e5ee-4045-a0b7-33244bc8a30d"
+    },
+    {
+      "joke": "I went to the bank the other day and asked the banker to check my balance, so she pushed me!",
+      "id": "0826abff-170e-4393-8e34-7cf43a6d8684"
+    },
+    {
+      "joke": "What is the tallest building in the entire world? The library, because it has so many stories.",
+      "id": "d42e5afa-ef36-4722-af17-2ac25f5b670c"
+    },
+    {
+      "joke": "How do trees access the internet? They log in.",
+      "id": "965b5200-094d-4130-bb16-5ac6006e1a1d"
+    },
+    {
+      "joke": "What do you call a famous fish? A star fish.",
+      "id": "c8659b8d-f18e-4948-96f9-07b647cc5999"
+    },
+    {
+      "joke": "What is a mummy's favorite type of music? Wrap!",
+      "id": "bbf9e9ae-5a34-41f1-af5f-24086ad07a4e"
+    },
+    {
+      "joke": "Why do hamburgers go to the gym A: To get better buns!",
+      "id": "26d1b5ac-b2f5-4360-a630-063bab49298f"
+    },
+    {
+      "joke": "How much room is needed for fungi to grow? As mushroom as possible",
+      "id": "8ed16e17-c4bc-41b9-b691-6a695faf691a"
+    },
+    {
+      "joke": "Why did Adele cross the road? To sing, \"Hello from the other side!\"",
+      "id": "baed0fd2-d095-471c-a51d-b0b287413ab0"
+    },
+    {
+      "joke": "Can February march? No, but April may.",
+      "id": "36ca19e6-192f-478a-9cc8-388ee5bc2776"
+    },
+    {
+      "joke": "What is the color of the wind? Blew.",
+      "id": "588d52f8-0ec8-44f1-a49c-047d9b83e4f8"
+    },
+    {
+      "joke": "Why are hairdressers never late for work? Because they know all the short cuts!",
+      "id": "7b9b085e-8e80-41c4-80bf-b321337ab09c"
+    },
+    {
+      "joke": "What's an astronaut's favorite social media website? MySpace",
+      "id": "f08eb07b-b0e6-4e08-a911-fc834a8d1ef0"
+    },
+    {
+      "joke": "What do you call a sad coffee? Depresso.",
+      "id": "0b1b7231-2c33-4148-bdc9-04f56d7be90a"
+    },
+    {
+      "joke": "How come oysters never donate to charity? Because they are shellfish.",
+      "id": "eabf2d9d-8eb8-4c6a-81d5-5bf812c73026"
+    },
+    {
+      "joke": "How do you know a clock is still hungry? It goes back four seconds.",
+      "id": "0a5154e6-8bf2-4561-8f4d-40e7e056c85b"
+    },
+    {
+      "joke": "Why did the tofu cross the road? To prove he wasn't chicken.",
+      "id": "48872e1b-fb82-4a5d-8934-dd8e43ae65fc"
+    },
+    {
+      "joke": "Where do you learn how to make ice cream? Sundae School",
+      "id": "4cd9d99b-c1ce-4bf4-80c5-c4f384ada309"
+    },
+    {
+      "joke": "What did the grape say when it was stepped on? Nothing, it just let out a little wine.",
+      "id": "1f4b4ad4-7d0e-4f26-bbc5-c4034d1d89b5"
+    },
+    {
+      "joke": "What do you get from a pampered cow? Spoiled milk.",
+      "id": "c32d0e93-31e1-4471-894c-23f29c9fb9ea"
+    },
+    {
+      "joke": "Want to hear a Potassium joke? K.",
+      "id": "99c537c9-4e3c-471b-9b48-8f24de49b27d"
+    },
+    {
+      "joke": "When Magnesium and Oxygen started dating I was like, \"O MG!\"",
+      "id": "28813050-578d-472f-806a-4441abb037ad"
+    },
+    {
+      "joke": "What computer sings the best? A Dell.",
+      "id": "88aae782-7347-408b-8f00-027dd268c8d0"
+    },
+    {
+      "joke": "What did the spider do on the computer? Made a website!",
+      "id": "38a38725-fb51-45eb-8f27-0e5f293749ba"
+    },
+    {
+      "joke": "where is the best place to hide a body? The second page of a Google search.",
+      "id": "580d4077-1836-40f9-b67b-6aa523bf51e8"
+    },
+    {
+      "joke": "I put my phone on airplane mode, but it sure ain't flyin'.",
+      "id": "8df225a8-c33b-4252-b420-d9271d632ed5"
+    },
+    {
+      "joke": "Why is it that your nose runs, but your feet smell?",
+      "id": "e70d4922-da05-4094-be91-72eacb61fed4"
+    },
+    {
+      "joke": "Why shouldn't you write with a broken pencil? Because it’s pointless!",
+      "id": "cc3ebcae-305b-4157-8f72-dc52a7e8f42c"
+    },
+    {
+      "joke": "What starts with E, ends with E, and has only 1 letter in it? Envelope.",
+      "id": "ed819cde-6cd9-4a1b-b429-d0e7071a64da"
+    },
+    {
+      "joke": "I was wondering why the ball kept getting bigger and bigger, and then it hit me.",
+      "id": "f8f636fc-c8d1-4aff-b1fd-ea34015513fd"
+    },
+    {
+      "joke": "Did you hear about the guy whose whole left side was cut off? He's all right now.",
+      "id": "34327f44-448b-4df7-b953-3090661cccaa"
+    },
+    {
+      "joke": "How do you make a tissue dance? Put a little boogie in it.",
+      "id": "f428fdf9-4229-4df8-a794-6d2814c55721"
+    },
+    {
+      "joke": "The energizer bunny was arrested on a charge of battery.",
+      "id": "6d11c9b9-cf71-486d-8329-2ee1046493f2"
+    },
+    {
+      "joke": "What do you call a rabbit that has fleas? Bugs bunny.",
+      "id": "064b77e8-3b16-4747-ade0-55c94a504055"
+    },
+    {
+      "joke": "What did the tree say to autumn? Leaf me alone.",
+      "id": "538d991a-c5dd-4965-911d-2291af9c43d2"
+    },
+    {
+      "joke": "What do ghosts serve for dessert? I Scream.",
+      "id": "81fa1ebf-05eb-4272-b59a-08774bdeab5b"
+    },
+    {
+      "joke": "What tea do hockey players drink? Penaltea!",
+      "id": "d523073b-9331-4907-a513-fecfb02d87d7"
+    },
+    {
+      "joke": "On the other hand, you have different fingers.",
+      "id": "a98b9676-7096-41f0-a623-d8e76c9d8c4d"
+    },
+    {
+      "joke": "An opinion without 3.14159 is just an onion.",
+      "id": "b30f1796-0404-479b-b900-6b2642c159e0"
+    },
+    {
+      "joke": "Where do you find a birthday present for a cat? In a cat-alogue!",
+      "id": "035d67c7-d513-436c-91e2-c4118586ccda"
+    },
+    {
+      "joke": "I'm sorry I wasn't part of your past, can I make it up by being in your future?",
+      "id": "f190231b-cc3e-4389-b3be-575172d6c27f"
+    },
+    {
+      "joke": "Now what's on the menu? Me-n-u",
+      "id": "8ea1e448-16c2-4d23-a5fc-fdd318582593"
+    },
+    {
+      "joke": "Why are there pain killers in the jungle? The PARROTS-ATE-THEM-ALL.",
+      "id": "3874fad5-e571-44f7-b53f-4e0ca0926a20"
+    },
+    {
+      "joke": "Are you made of beryllium, gold, and titanium? You must be because you are BeAuTi-ful.",
+      "id": "9cd345f7-6e1a-4d62-88c3-614fe639db90"
+    },
+    {
+      "joke": "Forget hydrogen, you're my number one element.",
+      "id": "a13a1aec-82e5-46da-998e-dcb4d4bc6dcf"
+    },
+    {
+      "joke": "If at first you don’t succeed, destroy all evidence that you tried.",
+      "id": "30edc91b-335c-43c4-9ef3-367ab9d6e8ce"
+    },
+    {
+      "joke": "A healthy sleep not only makes your life longer, but also shortens the workday.",
+      "id": "f7a416e2-eeb6-4afb-b544-bdc73b09d380"
+    },
+    {
+      "joke": "What happened to the boy who drank 8 cokes? He burped 7-Up.",
+      "id": "5297bf6a-35e2-4e54-9d4c-222254417de0"
+    },
+    {
+      "joke": "Why do golfers wear two pairs of pants? In case they get a hole in one.",
+      "id": "4ea31f6f-baca-4067-9c0c-d9cb3f77c5ec"
+    },
+    {
+      "joke": "When is a door not a door? When it's ajar.",
+      "id": "4e33f051-7eb2-4286-8f4f-5334d61e0b5c"
+    },
+    {
+      "joke": "Have you heard of the new restaurant on the moon? The food is amazing, but I've heard its got no atmosphere...",
+      "id": "5262ae74-5466-4633-baeb-6ec527e32915"
+    },
+    {
+      "joke": "Are you a parking ticket? Because you have fine written all over you",
+      "id": "0e0e9665-2ae2-4f9c-bba6-78c07fd6686e"
+    },
+    {
+      "joke": "What did the fish say when he swam into a wall? Dam!",
+      "id": "bd40217f-661a-40a2-a7fa-e1585789bd4d"
+    },
+    {
+      "joke": "Show me a piano falling down a mineshaft and I'll show you A-flat minor.",
+      "id": "d47dbf6b-caf3-4dc3-a0de-dfe9493859e0"
+    },
+    {
+      "joke": "How do you wake up Lady Gaga? You poker face!",
+      "id": "e64eb89f-5a10-4a7e-8277-a4f3cb3aedba"
+    },
+    {
+      "joke": "Why did the orange lose the race? Because it ran out of juice.",
+      "id": "2676fe0b-363b-45cd-99bc-8332bc67a062"
+    },
+    {
+      "joke": "Dolphins are so smart that within a few weeks of captivity, they can train people to stand on the very edge of the pool and throw them fish?",
+      "id": "96e77af3-3790-4a69-a411-2341c20db6ed"
+    },
+    {
+      "joke": "The shinbone is a device for finding furniture in a dark room.",
+      "id": "20deddaa-75a9-4d22-8ae2-9051e625d708"
+    },
+    {
+      "joke": "Always borrow money from a pessimist. They don't expect it back.",
+      "id": "e90b2bd9-a869-4f23-a0a4-ae318ae976f0"
+    },
+    {
+      "joke": "I can’t believe I forgot to go to the gym today. That’s 7 years in a row now.",
+      "id": "ab6f6f2e-facb-4d33-86b4-50c05bc21397"
+    },
+    {
+      "joke": "I thought I’d tell you a good time travel joke – but you didn't like it.",
+      "id": "4ee2a480-c245-44d6-b3f4-e0a8ffb5135a"
+    },
+    {
+      "joke": "Why did the physics teacher break up with the biology teacher? There was no chemistry.",
+      "id": "0db56efb-6388-439b-82bf-46a02b769656"
+    },
+    {
+      "joke": "I got another letter from this lawyer today. It said “Final Notice”. Good that he will not bother me anymore.",
+      "id": "0bff1a1f-ed10-42b7-a4b5-f43af9d1f427"
+    },
+    {
+      "joke": "lol, hahahahahahaha",
+      "type": "general",
+      "id": "58421cb0-4af7-46fd-b5be-0b1ac5e1318d"
+    }
+  ]
+}
