@@ -500,6 +500,16 @@
       "joke": "lol, hahahahahahaha",
       "type": "general",
       "id": "58421cb0-4af7-46fd-b5be-0b1ac5e1318d"
+    },
+    {
+      "joke": "hello",
+      "type": "Popular",
+      "id": "c4b2ead9-df0f-4d3c-b93e-08048a4cb1f3"
+    },
+    {
+      "joke": "helllloooo",
+      "type": "Science",
+      "id": "0ab6159b-4a31-486f-a73e-70e3931ad8c3"
     }
   ]
 }

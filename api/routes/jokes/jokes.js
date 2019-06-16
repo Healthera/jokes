@@ -24,6 +24,7 @@ router.post('/', function (req, res) {
     let jokes = db.get('jokes');
     if (jokes.findIndex({ joke: req.body.joke }).value() > 0) {
         res.status(409).json({ error: 'This joke already exists in database' });
+        return;
     }
     let response = jokes.insert({ joke: req.body.joke, type: req.body.type })
         .write();
