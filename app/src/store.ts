@@ -1,12 +1,17 @@
 import Vue from 'vue';
-import Vuex from 'vuex';
+import Vuex, {StoreOptions} from 'vuex';
 import axios from 'axios';
 
 Vue.use(Vuex);
 
 const server: string = `http://localhost:3050`;
 
-export default new Vuex.Store({
+interface RootState {
+  jokes: any[];
+  randomJoke: {};
+}
+
+const store: StoreOptions<RootState> = {
   state: {
     jokes: [],
     randomJoke: {}
@@ -55,9 +60,11 @@ export default new Vuex.Store({
         .delete(`${server}/jokes?id=${payload.id}`)
         .then(r => r.data)
         .then(joke => {
-          commit('DELETE_JOKE', joke)
+          commit('DELETE_JOKE', joke[0])
         })
     }
 
   },
-});
+};
+
+export default new Vuex.Store(store);

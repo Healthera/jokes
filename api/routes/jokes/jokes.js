@@ -14,6 +14,7 @@ router.get('/', function (req, res) {
         let i = Math.floor((Math.random() * jokes.length));
         response = jokes[i];
         res.status(200).json(response);
+        return;
     }
 
     response = jokes;
@@ -42,7 +43,7 @@ router.delete('/', function (req, res) {
     let jokes = db.get('jokes');
     let response = jokes.remove({ id: req.query.id })
         .write();
-    res.status(204).json(response);
+    res.status(200).json(response);
 });
 
 module.exports = router;
