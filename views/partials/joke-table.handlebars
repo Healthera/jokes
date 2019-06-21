@@ -1,0 +1,24 @@
+{{!--Partial set up for joke table --- Not yet used --- --}}
+
+<div class="table-responsive" style="border-color:#2f9d6d">
+    <table class="table table-bordered" style="margin: 0 auto;">
+        <thead>
+            <tr>
+                <th>Joke</th>
+                <th>Tags</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#each joke}}
+            <tr>
+                <td>{{joke}}</td>
+                <td>{{keywords}}</td>
+                <td><button class="btn btn-sm btn-warning" id="update-joke-btn" data-value="{{id}}">  Update </button> <!--UpdateJoke-->
+                <td><button class="btn btn-sm btn-danger" id="delete-joke-btn" data-value="{{id}}"> X </button> <!--DeleteJoke-->
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>

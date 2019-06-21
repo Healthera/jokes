@@ -1,0 +1,87 @@
+h1, h2, h3, h4, h5, p ,th, td {
+    font-family: 'Assistant', sans-serif;
+}
+
+hr, .table, tbody, thead, tr,th,td{
+    border-color: #2f9d6d;
+}
+
+header{
+    display: block;
+    position: sticky;
+    background-color: #2f9d6d;
+    padding: 5px 10px;
+    
+}
+
+header h1{
+    color:white;
+    font-weight: bold;
+}
+
+.show-joke {
+    font-size:130%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.add-joke, #update-joke-form {
+    border: 1px #2f9d6d solid;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px 15px;
+}
+
+.title{
+    font-weight: bold;
+    text-align: center;
+    color: #2f9d6d;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    max-width:400px;
+    border-radius: 2px;
+    border: 1px solid #2f9d6d;
+    padding: 5px;
+    margin: 5px 5px 0px 0px;
+  }
+
+label {
+    display: inline-block;
+    text-align: right;
+    color: #2f9d6d;
+    width: 100%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 5px;
+  }
+  
+  .message-success {
+    background-color: #2f9d6d;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 5px 0px;
+    padding: 5px;
+  }
+  
+  .message-warning {
+    background-color: orange;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 5px 0px;
+    padding: 5px;
+  }
+
+
+
+/* .btn-primary {
+    background-color: #2f9d6d;
+    border-color: #2f9d6d;
+    display: block;
+} */
+
