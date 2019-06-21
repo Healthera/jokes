@@ -1,0 +1,75 @@
+{{>headerbar}}
+<div class="container">
+    <h1>Joke Administration Portal</h1>
+    <hr/>
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <!--CurrentFunctionality-->
+            <button class="btn btn-block btn-primary" id="show-joke-btn">Tap for a Joke</button>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <!--CreateJoke-->
+            <button class="btn btn-block btn-primary" id="add-joke-btn">Add New Joke</button>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <!--ReadJoke-->
+            <button class="btn btn-block btn-primary" id="list-joke-btn">View Joke list</button>
+        </div>
+    </div>
+    <hr/>
+    <div class="content-main">
+        <div class="show-joke"></div>
+        <div class="add-joke">
+            <div class="row">
+                <h3 class="title">Add New Joke</h3>
+                <div class="col-xs-6">
+                    <label id="joke-label" for="joke">Enter New Joke:</label>
+                    <label id="keyword-label" for="keywords">Enter Tags or Keywords:</label>
+                </div>
+                <div class="col-xs-6">
+                    <input type="text" name="joke" id="new-joke-text"/>
+                    <input type="text" name="keywords" id="new-joke-keyword"/>
+                </div>
+                <div class="col-xs-12">
+                    <div id="add-joke-message"></div>
+                    <button class="btn btn-block btn-primary" id="submit-joke-btn">Submit New Joke</button>
+                </div>
+            </div>
+        </div>
+        <div class="list-joke">
+            <div id="update-joke-message"></div>
+            <div id="update-joke-form">
+                <div class="row">
+                    <h3 class="title">Update Joke</h3>
+                    <div class="col-xs-6">
+                        <label id="joke-label" for="joke">Update Joke:</label>
+                        <label id="keyword-label" for="keywords">Enter Tags or Keywords:</label>
+                    </div>
+                    <div class="col-xs-6">
+                        <input type="text" name="current_joke" id="current-joke-text"/>
+                        <input type="text" name="current_keywords" id="current-joke-keyword"/>
+                    </div>
+                    <div id="current-joke-id" style="display: none"></div>
+                    <div class="col-xs-12">
+                        <button class="btn btn-block btn-primary" id="submit-update-btn">Submit Joke Update</button>
+                    </div>
+                </div>
+            </div>
+            <div id="delete-joke-message"></div>
+            <div class="table" style="border-color:#2f9d6d">
+                <table class="table table-bordered" style="margin: 0 auto;">
+                    <thead>
+                        <tr>
+                            <th style="width:60%">Joke</th>
+                            <th style="width:20%">Tags</th>
+                            <th style="width:10%">Update</th>
+                            <th style="width:10%">Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody class="list-joke-data">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
