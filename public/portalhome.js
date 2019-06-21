@@ -60,12 +60,13 @@ document.addEventListener('DOMContentLoaded',function(){
                 html+= '</tr>';
             }
             container.innerHTML=html;
+            // Bind the delete and update buttons within our table
             BindDeleteButtons();
             BindUpdateButtons();
         }
     }
 
-    // //Update Joke: - calls update-joke api
+    // Update Joke: - calls update-joke api
     function BindUpdateButtons(){
         let elements = document.getElementsByClassName('update-joke-btn');
         for(let i = 0; i < elements.length; i++){
@@ -107,8 +108,6 @@ document.addEventListener('DOMContentLoaded',function(){
         };
     }
 
-    
-
     //Delete Joke: - calls delete-joke api
     function BindDeleteButtons(){
         let elements = document.getElementsByClassName('delete-joke-btn');
@@ -142,7 +141,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 });
 
-  //Set up portal display functionality --> using jQuery for speed
+  //Set up portal display functionality --> using jQuery for speed of initial setup
   //Need to convert to javascript as required
   $(document).ready(() => {
     //Set up page - hide all sections

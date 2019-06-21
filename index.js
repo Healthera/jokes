@@ -24,7 +24,6 @@ app.get('/', function(req,res){
 /*Declarations: */
 const connectionString = 'Driver={SQL Server Native Client 11.0};Server=(localdb)\\Projectsv13;Database=jokedatabase;Uid=;Pwd=;';
 
-//Need to add in creation of database if database does not exist
 //CREATE DATABASE:
 var createDatabaseQuery = "IF NOT EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'jokelist') BEGIN \
 CREATE TABLE [jokelist] (\
@@ -38,8 +37,9 @@ sqlServer.query(connectionString, createDatabaseQuery, function(err, result){
   if(err){
     console.log('Error: ' + err);
   } else {
+    // If we've just created the table or if the table has no jokes, import the contents of the CSV
     if(result.length == 0 || result[0].no_of_jokes == 0){
-      //Need to add in importation of CSV jokes into database if database length is 0 (empty database)
+      
       //IMPORT CSV:
       fs.readFile('jokes.csv', (err, data) => {
         parse(data, {}, (err, jokes) => {
@@ -177,6 +177,8 @@ function createJokeQuery(joke, keyword) {
   return "INSERT INTO [jokelist]([joke], [keyword]) VALUES (?, ?)";
 };
 
+// Ideally, update all of the below to make use of the values argument in sqlServer.query
+// At the moment, for the below queries, any joke entries that contain " or ' may cause the query to fail
 //Query for finding existing joke:
 function findJokeQuery(jokeID) {
   return "SELECT * FROM [jokelist] WHERE [jokelist].[id] = '" + jokeID + "' ";
