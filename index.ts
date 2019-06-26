@@ -1,7 +1,8 @@
 const express = require('express');
 const fs = require('fs');
-const app = express();
 const parse = require('csv-parse');
+
+const app = express();
 
 fs.readFile('jokes.csv', (err, data) => {
   parse(data, {}, (err, jokes) => {
