@@ -1,0 +1,22 @@
+#jokesAppGrid {
+  width: 100%;
+}
+
+.grid {
+  height: 88vh; /* ideally this should change dynamically dependent on the 
+                   screen size in the range 95-95 to allow for the relative 
+                   size of the buttons */
+}
+
+.jokesButton {
+  background-color: #4CAF50; /* Green */
+  border: 5px;
+  border-radius: 2px;
+  margin: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

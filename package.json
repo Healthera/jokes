@@ -5,6 +5,9 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "node_modules\\.bin\\tslint -c tslint.json index.ts --fix",
+    "build": "npx ts-node index.ts",
+    "prestart": "npm run build",
     "start": "node index.js"
   },
   "author": "Peter Hambly",
@@ -15,5 +18,9 @@
     "express": "^4.15.2",
     "fs": "0.0.1-security",
     "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "ts-lint": "^4.5.1",
+    "tslint": "^5.18.0"
   }
 }

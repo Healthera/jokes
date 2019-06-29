@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en" ng-app="JOKES" charset="utf-8">
+    <head>
+        <link rel="shortcut icon" href="favicon.ico">
+        <title>Jokes Applcation, 1.0b1</title> <!-- This should match the next github release version -->
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="RIF, Software for Environmental Spatial Epidemiology">
+        <meta name="keywords" content="Disease mapping, Spatial epidemiology, Environental exposure, Health data, GIS, Biostatistics">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		
+        <!-- Angular 1.5.8     -->
+        <script src="libs/angular.min.js"></script>
+<!--        <script src="libs/standalone/angular-animate.min.js"></script>
+        <script src="libs/standalone/angular-sanitize.min.js"></script>
+        <script src="libs/standalone/angular-aria.min.js"></script>
+        <script src="libs/standalone/angular-messages.min.js"></script>
+        <script src="libs/standalone/angular-ui-router.min.js"></script>
+        <script src = "libs/angular-simple-logger.js"></script> -->
+
+        <!-- Angular Material Library -->
+<!--        <script src="libs/standalone/angular-material.min.js"></script>
+        <link rel="stylesheet" href="libs/standalone/angular-material.min.css"> -->
+
+        <!-- Bootstrap -->
+        <script src="libs/ui-bootstrap-tpls-2.3.0.min.js"></script>
+        <link rel="stylesheet" href="libs/bootstrap.min.css">
+
+		<!-- https://caolan.github.io/async/ -->
+        <script src="libs/async.js"></script>
+		
+        <!-- UI grid -->
+        <script src="libs/ui-grid.min.js"></script> 
+        <link rel="stylesheet" href="libs/ui-grid.min.css">   
+
+        <!-- THESE ONLY EVER AS STANDALONE LIBRARIES -->
+        <!-- Angular -->
+        <!-- <script src="libs/angular-simple-logger.js"></script> -->
+
+        <!-- notification -->
+        <link rel="stylesheet" href="libs/ngNotificationsBar.css">
+        <script src="libs/ngNotificationsBar.min.js"></script>   
+        
+        <!-- Application ANGULAR JS-->
+        <script src = "modules/jokesm-app.js"></script> 
+        <script src = "controllers/jokesc-home.js"></script>
+        <script src = "controllers/jokesc-alert.js"></script>
+        <script src = "services/jokess-alert.js"></script>
+        <script src = "services/jokess-urls.js"></script>
+        <script src = "services/jokess-grid.js"></script>
+
+        <!-- Application CSS -->   
+        <link href="css/jokesx-css-main.css" rel="stylesheet" media="screen" />
+        <!-- W3 button -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body ng-controller="AlertCtrl">
+        <div>
+            <!-- the notification bar -->
+            <notifications-bar class="notifications"></notifications-bar>
+        </div>
+        <div class="jokesApp" ng-controller="HomeCtrl">
+            <!-- jokes table -->
+            <div class="grid" id="jokesAppGrid" ui-grid="gridOptions" ui-grid-autoresize ui-grid-edit ui-grid-cellnav></div>
+            <!-- Controlling buttons. Save is automatic -->
+            <button id="addNewJoke" class="jokesButton" ng-click="addNewJoke()">Add joke</button>
+            <button id="getJoke" class="jokesButton" ng-click="getJoke()">Amuse me</button>
+        </div>
+    </body>
+</html>
