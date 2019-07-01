@@ -27,7 +27,7 @@
   * Edit existing jokes
   * Delete a joke
 
-    ![alt text](https://github.com/peterhambly/jokes/tree/filter/challenge.pPNG "Peter Hambly jokes challenge")
+    ![alt text](https://raw.githubusercontent.com/peterhambly/jokes/peter-h-challenge/challenge.PNG "Peter Hambly jokes challenge")
 
 ## Limitations
 
