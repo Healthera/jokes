@@ -22,13 +22,14 @@ angular.module("JOKES")
                 // Add new joke button
                 $scope.addNewJoke = function() {                   
                     if ($scope.gridOptions.data[$scope.gridOptions.data.length-1].joke != "") {
-                        var index = $scope.gridOptions.data.length+1;
-                        
-                        $scope.gridOptions.data.push({
+                        var index = $scope.gridOptions.data[$scope.gridOptions.data.length-1].index+1;
+                        var joke = {
                             index: index,
                             joke: "",
                             category: "funny"
-                        });
+                        }
+                        $scope.gridOptions.data.push(joke);
+                        AlertService.consoleLog("New joke: " + index);
                         $http.post(urlConfig.urlRoot+ "/createJoke?index=" + 
                             index + "&joke=&category=funny").then(
                             function success(response) {
@@ -41,7 +42,17 @@ angular.module("JOKES")
                             function fail(response) {
                                 handleHttpError(response, "createJoke");
                             });
-                    }                   
+                    }   
+                    else if ($scope.gridOptions.data[$scope.gridOptions.data.length-1].joke == "") {
+                        $scope.gridApi.cellNav.scrollToFocus(
+                            $scope.gridOptions.data[$scope.gridOptions.data.length-1], 
+                            $scope.gridOptions.columnDefs[1]);        
+                    }
+                    else {
+                        AlertService.consoleLog("No new joke, len: " + $scope.gridOptions.data.length +
+                            "; data: " + 
+                            JSON.stringify($scope.gridOptions.data[$scope.gridOptions.data.length-1]));
+                    }                    
                 }
                 
                 // Delete button
@@ -64,8 +75,8 @@ angular.module("JOKES")
                  */ 
                 function handleHttpError(response, url) {
                     AlertService.showError("Error " + response.status +
-                        " in " + url + ": " + 
-                        JSON.stringify(response.statusText));
+                        " in " + url + ": " + response.statusText);
+                    AlertService.consoleError(JSON.stringify(response, null, 2));
                 }
  
                 // Initialise grid - set $scope.gridOptions for UI-grid
@@ -81,11 +92,12 @@ angular.module("JOKES")
                         $scope.gridApi.edit.on.afterCellEdit($scope, 
                             function(rowEntity, colDef, newValue, oldValue) {
                             //Alert to show what info about the edit is available
-                            AlertService.consoleLog('Column: ' + colDef.name + ' index: ' + rowEntity.index + 
+                            AlertService.consoleLog('Column: ' + colDef.name + ' rowEntity: ' + JSON.stringify(rowEntity) + 
                                  '; oldValue: ' + oldValue + '; newValue: ' + newValue);
 
                             $http.put(urlConfig.urlRoot + "/updateJoke?index=" + rowEntity.index +
-                                "&" + colDef.name + "=" +  encodeURIComponent(newValue)).then(
+                                "&column=" + colDef.name +
+                                "&newValue=" +  encodeURIComponent(newValue)).then(
                                 function success(response) {
                                 },
                                 function fail(response) {
@@ -103,9 +115,9 @@ angular.module("JOKES")
                             var jokes=[];
                             for (var i=0; i<response.data.length; i++) {
                                 jokes.push({
-                                    index: i+1,
-                                    joke: response.data[i][0],
-                                    category: "funny" // Default
+                                    index: response.data[i].index,
+                                    joke: response.data[i].joke,
+                                    category: response.data[i].category
                                 });
                             }
                            $scope.gridOptions.data=angular.copy(jokes);
