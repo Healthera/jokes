@@ -120,8 +120,8 @@ fs.readFile("jokes.csv", (err, data) => {
                         (req.query === undefined ? "N/A" : JSON.stringify(req.query)));
 
                     let jokeUpdate: JokeUpdate = {
-                        column: req.query.column, ,
-                        index: req.query.index
+                        column: req.query.column,
+                        index: req.query.index,
                         newValue: req.query.newValue
                     };
                     jokesMssql.updateJoke(jokeUpdate).then(
