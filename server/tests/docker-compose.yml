@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  server:
+    build: ../
+    environment:
+      SERVER_PORT: 3050
+    ports:
+      - '3050:3050'
+    links:
+      - db
+    restart: always
+
+  db:
+    image: 'mongo'
+    restart: always
+    expose:
+      - 27017
+    ports:
+      - '27017:27017'
+    volumes:
+      - ./data/mongo:/data/db

@@ -1,0 +1,44 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+input {
+    border: none;
+    background: rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 200px;
+    margin: 1px;
+}
+
+select {
+    border: none;
+    background: rgb(218, 211, 218);
+    margin: 1px;
+}
+
+button {
+    border: none;
+    margin: 1px;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu {
+    background: orange;
+}
+
+.save {
+    background: forestgreen;
+}
+
+.delete {
+    background: darkred;
+}
+
+.update {
+    background: darkslateblue;
+}
+
+.pag {
+    background: darkolivegreen;
+}
